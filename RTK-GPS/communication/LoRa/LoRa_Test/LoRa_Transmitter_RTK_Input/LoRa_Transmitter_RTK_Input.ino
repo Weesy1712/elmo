@@ -28,7 +28,7 @@ void loop() {
    while (Serial2.available()) {
   LoRa.beginPacket();
   
-  
+  Serial.print(char(Serial2.read())); 
   LoRa.print(char(Serial2.read()));
   LoRa.endPacket();
  }

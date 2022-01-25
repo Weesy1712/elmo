@@ -15,11 +15,11 @@ static const uint32_t GPSBaud = 9600;
 double latitude;
 double longitude;
 
-static double waypoint[] = {38.190118, -83.429947,
-                            38.190232, -83.429962,
-                            38.190159, -83.429819,
-                            38.190279, -83.429786,
-                            38.190212, -83.429682,
+static double waypoint[] = {46.609201, 14.305195,
+                            46.608943, 14.305204,
+                            46.609015, 14.306148,
+                            46.609305, 14.306128,
+                            46.609201, 14.305195,
                            };
 double finalX = waypoint[0];
 double finalY = waypoint[1];

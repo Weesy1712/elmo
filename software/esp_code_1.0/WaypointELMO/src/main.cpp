@@ -9,8 +9,8 @@
 LiquidCrystal LCD(6, 7, 5, 4, 3, 2);  //Create Liquid Crystal Object called LCD
 
 
-static const int RXPin = 8, TXPin = 9;
-static const uint32_t GPSBaud = 9600;
+static const int RXPin = 16, TXPin = 17;
+static const uint32_t GPSBaud = 57600;
 
 double latitude;
 double longitude;
